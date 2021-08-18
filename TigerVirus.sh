@@ -1086,10 +1086,10 @@ echo -e "\e[93m[2] To Exit "
 
 echo -e "\e[92m "
 read -p "CHOOSE AN OPTION : " be 
-if [ $be -eq 1 ]
+if [[ $be -eq 1 ]]
 then
 back_option
-elif [ $be -eq 2 ]
+elif [[ $be -eq 2 ]]
 then
 echo -e "\e[39m"
 else
